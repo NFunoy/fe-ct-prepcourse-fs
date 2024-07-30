@@ -13,11 +13,9 @@ function productoEntreNúmeros(a, b) {
 
 }  
 
-   if  ( sum === -0){
-    return 0
-   }
+   
+   return Math.abs (sum)
 
-return Math.abs (sum)
 
 }
 module.exports = productoEntreNúmeros;

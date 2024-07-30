@@ -3,19 +3,14 @@ function sumarHastaN(n) {
   // Devuelve la suma de todos los números desde 1 hasta n.
   // Tu código:
 
+var sum = 0
 
-var acum = 0
+ for (var i = 1 ; i <= n ; i ++){
+       sum = sum + i
 
+} 
 
-for(var i = 1 ; i <= n ; i ++ ){
-
-acum = acum + i
-
-}
-return acum
-
-
-
+ return sum
 }
 
 module.exports = sumarHastaN;
